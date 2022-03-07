@@ -1,0 +1,13 @@
+#look {
+    background-image: linear-gradient(
+    to bottom right,
+    #FF9933 30%, #FFFFFF 40%, #FFFFFF 60%, #138808 100% );
+
+    background-size: 200% 200%;
+    animation: movingGradient 5s linear infinite alternate;
+}
+
+@keyframes movingGradient {
+    from { background-position: 0 0;}
+    to { background-position: 100% 100%;}
+}
